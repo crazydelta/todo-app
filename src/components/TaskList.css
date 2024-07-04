@@ -1,0 +1,35 @@
+.orderedlist{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+  width: 100%;
+  margin-right: 5px;
+}
+.list-item{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.edit-delete-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit{
+  margin-right: 5px;
+  background-color: gray;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.delete{
+  background-color: rgb(199, 32, 32);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.inputfield {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin: 5px;
+  }
+  form{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .addtask {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    height: 40px;
+  }
+  
+  .addtask:hover {
+    background-color: #3e8e41;
+  }
